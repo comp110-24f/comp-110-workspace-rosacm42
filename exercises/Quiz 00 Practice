@@ -1,0 +1,9 @@
+def returning(word: str) -> str:
+    return word
+
+
+def echo(word: str, times: int) -> str:
+    return returning(word=word) * times
+
+
+print(echo(word="hello", times=4))
